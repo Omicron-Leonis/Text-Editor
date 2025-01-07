@@ -39,7 +39,7 @@ def save_file():
              # Read the edited content and update in the output file
         text = txt_edit.get(1.0, END)
         output_file.write(text)
-    window.title(f"Codingal's Text Editor - {filepath}")
+    window.title(f"Mahiyat's Text Editor - {filepath}")
        
 # Add widgets in the application
 txt_edit = Text(window)
